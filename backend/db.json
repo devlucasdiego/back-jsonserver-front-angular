@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Mouse Gamer Logitech G203",
+      "price": 99.9
+    },
+    {
+      "id": 2,
+      "name": "SSD A400 Kingston",
+      "price": 219.99
+    },
+    {
+      "id": 3,
+      "name": "Cartucho HP 664",
+      "price": 52.09
+    },
+    {
+      "id": 4,
+      "name": "Smartphone Poco X3 PRO",
+      "price": 2100.0
+    },
+    {
+      "id": 5,
+      "name": "Pulseira Smart Mi Band 6",
+      "price": 239.0
+    },
+    {
+      "id": 6,
+      "name": "Fire TV Stick",
+      "price": 227.05
+    },
+    {
+      "id": 7,
+      "name": "Echo Dot Alexa",
+      "price": 331.55
+    },
+    {
+      "id": 8,
+      "name": "Webcam Logitech C920s",
+      "price": 330.4
+    },
+    {
+      "id": 9,
+      "name": "Smart Lâmpada Led Colors Elgin",
+      "price": 59.9
+    },
+    {
+      "id": 10,
+      "name": "Notebook Acer Nitro 5",
+      "price": 5489.0
+    }
+  ]
+}
