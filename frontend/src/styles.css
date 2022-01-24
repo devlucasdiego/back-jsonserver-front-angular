@@ -8,3 +8,11 @@ body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
+
+.red {
+  color: rgb(221, 31, 31);
+}
+
+.v-middle {
+  vertical-align: middle;
+}
