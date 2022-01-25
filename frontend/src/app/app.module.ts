@@ -14,7 +14,9 @@ import { MatSidenavModule } from "@angular/material/sidenav";
 import { MatCardModule } from "@angular/material/card";
 import { MatListModule } from "@angular/material/list";
 import { HomeComponent } from "./views/home/home.component";
-import { ProductCrudComponent } from './views/product-crud/product-crud.component';
+import { ProductCrudComponent } from "./views/product-crud/product-crud.component";
+import { ProductsCreateComponent } from "./components/products/products-create/products-create.component";
+import { MatButtonModule } from "@angular/material/button";
 
 @NgModule({
   declarations: [
@@ -24,6 +26,7 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
     NavComponent,
     HomeComponent,
     ProductCrudComponent,
+    ProductsCreateComponent,
   ],
   imports: [
     BrowserModule,
@@ -33,6 +36,7 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
     MatSidenavModule,
     MatListModule,
     MatCardModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

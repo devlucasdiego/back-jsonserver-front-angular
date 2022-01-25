@@ -1,3 +1,4 @@
+import { ProductsCreateComponent } from "./components/products/products-create/products-create.component";
 import { Component, NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
 
@@ -10,6 +11,10 @@ const routes: Routes = [
     component: HomeComponent,
   },
   { path: "products", component: ProductCrudComponent },
+  {
+    path: "products/create",
+    component: ProductsCreateComponent,
+  },
 ];
 
 @NgModule({
