@@ -18,12 +18,12 @@
     {
       "id": 4,
       "name": "Smartphone Poco X3 PRO",
-      "price": 2100.0
+      "price": 2100
     },
     {
       "id": 5,
       "name": "Pulseira Smart Mi Band 6",
-      "price": 239.0
+      "price": 239
     },
     {
       "id": 6,
@@ -48,7 +48,7 @@
     {
       "id": 10,
       "name": "Notebook Acer Nitro 5",
-      "price": 5489.0
+      "price": 5489
     }
   ]
 }
