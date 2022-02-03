@@ -10,12 +10,11 @@ import { Product } from "./../product.model";
 export class ProductsReadComponent implements OnInit {
   products: Product[] = [];
 
-  constructor(private ProductService: ProductService) {}
+  constructor(private productService: ProductService) {}
 
   ngOnInit(): void {
-    this.ProductService.read().subscribe((products) => {
-      this.products = this.products;
-      console.log(products);
+    this.productService.read().subscribe((products) => {
+      this.products = products;
     });
   }
 }
