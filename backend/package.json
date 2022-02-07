@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.17.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^13.2.2"
   }
 }
