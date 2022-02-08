@@ -18,12 +18,11 @@ import { ProductCrudComponent } from "./views/product-crud/product-crud.componen
 import { ProductsCreateComponent } from "./components/products/products-create/products-create.component";
 import { MatButtonModule } from "@angular/material/button";
 import { MatSnackBarModule } from "@angular/material/snack-bar";
-
-import { HttpClientModule } from "@angular/common/http";
-
 import { FormsModule } from "@angular/forms";
 import { MatFormFieldModule } from "@angular/material/form-field";
 import { MatInputModule } from "@angular/material/input";
+
+import { HttpClientModule } from "@angular/common/http";
 import { ProductsReadComponent } from "./components/products/products-read/products-read.component";
 import { ProductsRead2Component } from "./components/products/products-read2/products-read2.component";
 import { MatTableModule } from "@angular/material/table";
@@ -32,6 +31,7 @@ import { MatSortModule } from "@angular/material/sort";
 
 import localPt from "@angular/common/locales/pt";
 import { registerLocaleData } from "@angular/common";
+import { ProductsUpdateComponent } from "./components/products/products-update/products-update.component";
 
 registerLocaleData(localPt);
 
@@ -46,6 +46,7 @@ registerLocaleData(localPt);
     ProductsCreateComponent,
     ProductsReadComponent,
     ProductsRead2Component,
+    ProductsUpdateComponent,
   ],
   imports: [
     BrowserModule,
